@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 9vh;
+}
+#seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 40vw;
+    height: 80vh;
+}
+#cards{
+    border-style: solid;
+    width: 40vw;
+    height: 80vh;
+}
+#seccion h1{
+    font-size: 25px;
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+#seccion input{
+    margin-bottom: 3%;
+}
